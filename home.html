@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qingdao - Home</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <nav class="page-nav glass">
+        <div class="page-nav-inner">
+            <div class="nav-brand">Qingdao</div>
+            <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="food.html">Cuisine</a></li>
+                <li><a href="scenery.html">Scenery</a></li>
+                <li><a href="culture.html">Culture</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-content">
+        <div class="home-hero glass-strong animate-in">
+            <div class="home-hero-img">
+                <img src="./img/1.png" alt="Qingdao Coastline">
+            </div>
+            <div class="home-hero-text">
+                <h2>Sailing City of China</h2>
+                <p>Qingdao is a beautiful coastal city located in the eastern part of Shandong Province, China. Known for its stunning sea views, rich cultural heritage, and world-famous Tsingtao Beer, the city has become one of the most popular tourist destinations in northern China.</p>
+                <p>With a history spanning over a century of international influence, Qingdao offers a unique blend of Eastern and Western cultures, creating an atmosphere unlike anywhere else in China.</p>
+            </div>
+        </div>
+        <div class="home-highlights">
+            <div class="highlight-card glass animate-in">
+                <div class="label-line"></div>
+                <h3>Ocean & Beaches</h3>
+                <p>Over 860 kilometers of coastline with pristine beaches and crystal-clear waters</p>
+            </div>
+            <div class="highlight-card glass animate-in">
+                <div class="label-line"></div>
+                <h3>Tsingtao Beer</h3>
+                <p>Home of the world-renowned Tsingtao Brewery since 1903</p>
+            </div>
+            <div class="highlight-card glass animate-in">
+                <div class="label-line"></div>
+                <h3>European Heritage</h3>
+                <p>Exquisite German colonial architecture and charming old town streets</p>
+            </div>
+        </div>
+        <div class="home-gallery glass-strong animate-in">
+            <div class="gallery-title">City Gallery</div>
+            <div class="slideshow">
+                <div class="slideshow-track" id="slideTrack">
+                    <img src="./img/2.png" alt="Qingdao Skyline">
+                    <img src="./img/3.png" alt="Old Town Streets">
+                    <img src="./img/4.png" alt="Coastal Views">
+                    <img src="./img/5.png" alt="Mount Lao">
+                    <img src="./img/6.png" alt="Qingdao Harbor">
+                </div>
+                <div class="slideshow-controls">
+                    <button class="slide-btn" id="prevBtn">&#10094;</button>
+                    <div class="slide-dots" id="slideDots"></div>
+                    <button class="slide-btn" id="nextBtn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-section animate-in">
+            <div class="tabs-nav glass">
+                <div class="tab-btn active" onclick="switchTab(0)">Geography</div>
+                <div class="tab-btn" onclick="switchTab(1)">History</div>
+                <div class="tab-btn" onclick="switchTab(2)">Transport</div>
+                <div class="tab-btn" onclick="switchTab(3)">Seasons</div>
+            </div>
+            <div class="tab-content glass-strong">
+                <div class="tab-pane active">
+                    <div class="tab-inner">
+                        <div class="tab-img"><img src="./img/7.png" alt="Qingdao Geography"></div>
+                        <div class="tab-text">
+                            <h3>Geography & Climate</h3>
+                            <p>Qingdao is located on the southern coast of the Shandong Peninsula, facing the Yellow Sea. The city covers an area of 11,282 square kilometers with a population of over 10 million. It enjoys a temperate monsoon climate with cool, humid summers and mild winters, making it one of China's most livable cities. The average summer temperature is around 25 degrees Celsius, while winter averages just above freezing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane">
+                    <div class="tab-inner">
+                        <div class="tab-img"><img src="./img/8.png" alt="Qingdao History"></div>
+                        <div class="tab-text">
+                            <h3>History & Heritage</h3>
+                            <p>Qingdao's modern history began in 1891 when the Qing Dynasty established a naval base here. The city was under German colonial rule from 1897 to 1914, followed by Japanese occupation. This complex history left behind a remarkable architectural legacy, with the Badaguan area preserving over 200 European-style buildings. In 2008, Qingdao hosted the sailing events for the Beijing Olympics, cementing its status as an international destination.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane">
+                    <div class="tab-inner">
+                        <div class="tab-img"><img src="./img/9.png" alt="Qingdao Transport"></div>
+                        <div class="tab-text">
+                            <h3>Transportation & Travel</h3>
+                            <p>Qingdao is well-connected by air, rail, and sea. Qingdao Jiaodong International Airport offers direct flights to major cities worldwide. The city is linked to Beijing and Shanghai by high-speed rail, with travel times of approximately 3 and 4 hours respectively. Within the city, an extensive metro system, bus network, and taxi services make getting around convenient.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane">
+                    <div class="tab-inner">
+                        <div class="tab-img"><img src="./img/10.png" alt="Qingdao Seasons"></div>
+                        <div class="tab-text">
+                            <h3>Best Time to Visit</h3>
+                            <p>The ideal time to visit Qingdao is from June to September during the summer season. July and August are peak months, coinciding with the International Beer Festival and the beach season. Spring (April to May) offers pleasant weather and blooming cherry blossoms, while autumn (October to November) provides comfortable temperatures and stunning foliage at Mount Lao.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="index.html" class="back-btn glass">&#8592; Welcome</a>
+    <div class="email-bar glass">i25030747@student.newinti.edu.my</div>
+    <script>
+        var slideIndex = 0;
+        var slides = document.querySelectorAll('#slideTrack img');
+        var totalSlides = slides.length;
+        var dotsContainer = document.getElementById('slideDots');
+
+        for (var i = 0; i < totalSlides; i++) {
+            var dot = document.createElement('span');
+            dot.className = 'slide-dot';
+            dot.setAttribute('data-index', i);
+            dot.onclick = function() { goSlide(parseInt(this.getAttribute('data-index'))); };
+            dotsContainer.appendChild(dot);
+        }
+
+        function goSlide(n) {
+            slideIndex = n;
+            if (slideIndex >= totalSlides) slideIndex = 0;
+            if (slideIndex < 0) slideIndex = totalSlides - 1;
+            document.getElementById('slideTrack').style.transform = 'translateX(-' + (slideIndex * 100) + '%)';
+            updateDots();
+        }
+
+        function updateDots() {
+            var allDots = document.querySelectorAll('.slide-dot');
+            for (var i = 0; i < allDots.length; i++) {
+                allDots[i].className = i === slideIndex ? 'slide-dot active' : 'slide-dot';
+            }
+        }
+
+        document.getElementById('prevBtn').onclick = function() { goSlide(slideIndex - 1); };
+        document.getElementById('nextBtn').onclick = function() { goSlide(slideIndex + 1); };
+
+        setInterval(function() { goSlide(slideIndex + 1); }, 4000);
+        goSlide(0);
+
+        function switchTab(index) {
+            var btns = document.querySelectorAll('.tab-btn');
+            var panes = document.querySelectorAll('.tab-pane');
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].className = i === index ? 'tab-btn active' : 'tab-btn';
+            }
+            for (var j = 0; j < panes.length; j++) {
+                if (j === index) {
+                    panes[j].style.display = 'block';
+                    panes[j].style.opacity = '0';
+                    setTimeout(function(el) {
+                        el.style.opacity = '1';
+                    }.bind(null, panes[j]), 20);
+                } else {
+                    panes[j].style.opacity = '0';
+                    panes[j].style.display = 'none';
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>
